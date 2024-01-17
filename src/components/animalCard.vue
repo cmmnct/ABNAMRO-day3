@@ -1,0 +1,72 @@
+<template>
+  <div class="card">
+    <h1>{{ animal.name }}</h1>
+    <hr />
+    <img :src="`/assets/img/${animal.type}.jpg`" />
+    <p>
+      <span class="type">{{ animal.type }}</span> (<span class="latin">{{ animal.latin }}</span
+      >)
+    </p>
+    <p></p>
+    <p>{{ animal.since }}</p>
+    <p>{{ returnDiet(animal.diet) }}</p>
+  </div>
+</template>
+
+<script setup lang="ts">
+
+import type { Animal } from './zooList.vue';
+
+const animal = defineProps<Animal>()
+const food = [
+  'rice',
+  'wheat',
+  'corn',
+  'meat',
+  'dogfood',
+  'catfood',
+  'lettuce',
+  'vegetables',
+    'peel of vegetables and fruits',
+    'grass',
+    'leaves',
+    'herbs',
+    'scrub',
+    'heather'
+]
+
+function returnDiet(arr: []): string {
+  let myFood = ''
+  arr.forEach((item) => {
+    myFood += ` ${food[item]}`
+  })
+  return myFood
+}
+</script>
+
+<style scoped>
+.card {
+  width: 30vw;
+  padding: 15px;
+  border: grey 1px solid;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+.card img {
+  width: 64px;
+  aspect-ratio: 1/1;
+  float: left;
+  margin: 5px;
+}
+.latin {
+  font-style: italic;
+}
+.type {
+    font-weight: bold;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+</style>
