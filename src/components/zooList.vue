@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Zoo list added</h1>
-    <table>
+    <table class="zoo-table">
       <tr>
         <th>name</th>
         <th>type</th>
@@ -25,7 +25,7 @@
       </tbody>
     </table>
 
-    <AnimalCard v-for="(animal, index) in animals" :key="index" v-bind="animal" />
+    <AnimalCard v-for="(animal) in animals" :key="animal.id" v-bind="animal" v-model="helloMsg" @update="updateAnimal" />
    <div>
   
    </div> 
@@ -40,14 +40,16 @@ import type { Ref } from 'vue'
 import AnimalCard from './animalCard.vue'
 
 export type Animal = {
+  id:number
   name: string
   type: string
   latin: string
   since: number
-  diet: []
+  diet: number[]
 }
 
 const animals: Ref<Animal[] | null> = ref(null)
+const helloMsg:Ref<String> = ref("Hi there!")
 
 watchEffect(async () => {
   // this effect will run immediately and then
@@ -55,6 +57,14 @@ watchEffect(async () => {
   const url = 'assets/animals.json'
   animals.value = await (await fetch(url)).json()
 })
+
+function updateAnimal(animal:Animal){
+console.log(animal);
+}
 </script>
 
-<style scoped></style>
+<style scoped>
+.zoo-table {
+  display: none;
+}
+</style>

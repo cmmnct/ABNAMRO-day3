@@ -1,211 +1,154 @@
 [
-    {
-        "name": "duckie",
-        "type": "duck",
-        "latin": "anas",
-        "since": 2020,
-        "diet": [
-            0,1,2
-        ]
-    },
-    {
-        "name": "puss",
-        "type": "kitten",
-        "latin": "(felis) catus",
-        "since": 2020,
-        "diet": [
-            3,5
-        ]
-    },
-    {
-        "name": "Big J",
-        "type": "piglet",
-        "latin": "Sus scrofa domesticus",
-        "since": 2020,
-        "diet": [
-            0,1,2,6,7,8
-        ]
-    },
-    {
-        "name": "Spot",
-        "type": "puppy",
-        "latin": "Canis lupus familiaris",
-        "since": 2020,
-        "diet": [
-            3,4
-        ]
-    },
-    {
-        "name": "Jenny",
-        "type": "calf",
-        "latin": "Bos Taurus",
-        "since": 2020,
-        "diet": [
-            9,10,11
-        ]
-    },
-    {
-        "name": "Valentine",
-        "type": "veal",
-        "latin": "Equus caballus",
-        "since": 2020,
-        "diet": [
-            9,
-            10,
-            11
-        ]
-    },
-    {
-        "name": "snooze",
-        "type": "lamb",
-        "latin": "Ovis aries",
-        "since": 2020,
-        "diet": [
-            9,
-            10,
-            11,
-            12
-        ]
-    },
-    {
-        "name": "Tenacious D",
-        "type": "rooster",
-        "latin": "Gallus gallus domesticus",
-        "since": 2020,
-        "diet": [
-            0,1,2
-        ]
-    },
-    {
-        "name": "Champ",
-        "type": "horse",
-        "latin": "Equus caballus",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "Speedy",
-        "type": "mouse",
-        "latin": "Mus musculus",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "Bubbles",
-        "type": "dog",
-        "latin": "Canis lupus familiaris",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "Whiskers",
-        "type": "cat",
-        "latin": "(felis) catus",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "Mrs Feathers",
-        "type": "goose",
-        "latin": "Latin anserīnus",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "Chewy",
-        "type": "goat",
-        "latin": "Capra aegagrus hircus",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "Mr Woolezzz",
-        "type": "sheep",
-        "latin": "Ovis aries",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "Big bad John",
-        "type": "pig",
-        "latin": "Sus scrofa domesticus",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "Rosemary",
-        "type": "cow",
-        "latin": "Bos taurus",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "fluffy",
-        "type": "chick",
-        "latin": "Gallus gallus domesticus",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    },
-    {
-        "name": "Mrs knowitall",
-        "type": "hen",
-        "latin": "Gallus gallus domesticus",
-        "since": 2020,
-        "diet": [
-            1,
-            5,
-            8,
-            3
-        ]
-    }
+  {
+    "id": 0,
+    "name": "duckie",
+    "type": "duck",
+    "latin": "anas",
+    "since": 2020,
+    "diet": [0, 1, 2]
+  },
+  {
+    "id": 1,
+    "name": "puss",
+    "type": "kitten",
+    "latin": "(felis) catus",
+    "since": 2020,
+    "diet": [3, 5]
+  },
+  {
+    "id": 2,
+    "name": "Big J",
+    "type": "piglet",
+    "latin": "Sus scrofa domesticus",
+    "since": 2020,
+    "diet": [0, 1, 2, 6, 7, 8]
+  },
+  {
+    "id": 3,
+    "name": "Spot",
+    "type": "puppy",
+    "latin": "Canis lupus familiaris",
+    "since": 2020,
+    "diet": [3, 4]
+  },
+  {
+    "id": 4,
+    "name": "Jenny",
+    "type": "calf",
+    "latin": "Bos Taurus",
+    "since": 2020,
+    "diet": [9, 10, 11]
+  },
+  {
+    "id": 5,
+    "name": "Valentine",
+    "type": "veal",
+    "latin": "Equus caballus",
+    "since": 2020,
+    "diet": [9, 10, 11]
+  },
+  {
+    "id": 6,
+    "name": "snooze",
+    "type": "lamb",
+    "latin": "Ovis aries",
+    "since": 2020,
+    "diet": [9, 10, 11, 12]
+  },
+  {
+    "id": 7,
+    "name": "Tenacious D",
+    "type": "rooster",
+    "latin": "Gallus gallus domesticus",
+    "since": 2020,
+    "diet": [0, 1, 2]
+  },
+  {
+    "id": 8,
+    "name": "Champ",
+    "type": "horse",
+    "latin": "Equus caballus",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 9,
+    "name": "Speedy",
+    "type": "mouse",
+    "latin": "Mus musculus",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 10,
+    "name": "Bubbles",
+    "type": "dog",
+    "latin": "Canis lupus familiaris",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 11,
+    "name": "Whiskers",
+    "type": "cat",
+    "latin": "(felis) catus",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 12,
+    "name": "Mrs Feathers",
+    "type": "goose",
+    "latin": "Latin anserīnus",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 13,
+    "name": "Chewy",
+    "type": "goat",
+    "latin": "Capra aegagrus hircus",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 14,
+    "name": "Mr Woolezzz",
+    "type": "sheep",
+    "latin": "Ovis aries",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 15,
+    "name": "Big bad John",
+    "type": "pig",
+    "latin": "Sus scrofa domesticus",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 16,
+    "name": "Rosemary",
+    "type": "cow",
+    "latin": "Bos taurus",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 17,
+    "name": "fluffy",
+    "type": "chick",
+    "latin": "Gallus gallus domesticus",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  },
+  {
+    "id": 18,
+    "name": "Mrs knowitall",
+    "type": "hen",
+    "latin": "Gallus gallus domesticus",
+    "since": 2020,
+    "diet": [1, 5, 8, 3]
+  }
 ]
